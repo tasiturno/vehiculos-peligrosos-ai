@@ -4,7 +4,7 @@ Proyecto: Detección de vehículos peligrosos (pipas, cisternas, vehículos con 
 
 ## Objetivo
 - Detectar y alertar sobre vehículos que transporten materiales peligrosos en cámaras de la ciudad.
-- Proveer un pipeline reproducible para entrenamiento, inferencia y despliegue.
+- Proveer un flujo de trabajo reproducible para entrenamiento, inferencia y despliegue.
 
 ## Instalación
 python3 -m venv .venv
@@ -13,3 +13,4 @@ pip install -r requirements.txt
 
 ## Uso
 python src/main.py --input videos/ --output results/
+
